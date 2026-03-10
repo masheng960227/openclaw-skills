@@ -38,6 +38,8 @@
 | **nano-banana-pro** | Gemini 3 Pro Image 图片生成和编辑 |
 | **openai-image-gen** | OpenAI 批量图片生成（DALL-E 3/GPT Image） |
 | **image-recognition** | 图片识别分析（OCR/物体检测/人脸） |
+| **image-beautifier** | 图片美化和优化（AI 增强/滤镜/批量） |
+| **pptx-creator** | PPT 创建和美化（演示文稿制作） |
 
 ### 💻 开发与工具
 
@@ -342,12 +344,20 @@ skill_install skillId="my-skill"
 | 浏览器自动化 | 2 |
 | 系统工具 | 3 |
 | 语音处理 | 2 |
-| **图片处理** | **3** |
-| **总计** | **22** |
+| **图片处理** | **5** |
+| **总计** | **24** |
 
 ---
 
 ## 🔄 更新日志
+
+### v1.6.0 (2026-03-10)
+- ✨ 添加 PPT 和图片美化技能
+  - pptx-creator: PowerPoint 创建和美化
+  - image-beautifier: 图片美化和优化
+- 📦 技能总数达到 24 个
+- 📊 新增演示文稿制作能力
+- 🎨 增强图片处理工作流
 
 ### v1.5.0 (2026-03-10)
 - ✨ 添加 3 个图片处理技能
