@@ -29,6 +29,7 @@
 | 技能 | 说明 |
 |------|------|
 | **git-fundamentals** | Git 版本控制基础，从入门到进阶 |
+| **git-workflows** | Git 高级工作流，rebase/cherry-pick/monorepo |
 | **github-management** | GitHub 仓库管理，PR/Issue/Actions |
 | **humanizer** | 文本人性化，AI 文本转人类风格 |
 
@@ -129,6 +130,54 @@ MemOS 本地记忆系统：
 - 长期对话搜索
 - 任务上下文恢复
 - 技能指南复用
+
+### lancedb
+LanceDB 向量数据库：
+- 本地向量存储
+- 语义搜索
+- 嵌入管理
+- 记忆持久化
+
+### git-workflows
+Git 高级工作流：
+- Rebase 和变基
+- Cherry-pick 跨分支
+- Worktree 并行开发
+- Reflog 恢复
+- Merge conflict 解决
+- Monorepo 管理
+
+### browserwing-executor
+Browserwing 浏览器自动化：
+- 页面导航
+- 元素交互（点击、输入、选择）
+- 数据提取
+- 无障碍快照分析
+- 截图
+- JavaScript 执行
+- 批量操作
+
+### browserwing-admin
+Browserwing 管理工具：
+- 浏览器配置
+- 实例管理
+- 权限设置
+- 监控和日志
+
+### openclaw-backup
+OpenClaw 备份与恢复：
+- 完整配置备份
+- 代理记忆备份
+- 技能和数据备份
+- HTTP 服务器上传/下载
+- 迁移到新服务器
+
+### self-improving-agent
+自我改进代理：
+- 捕获学习和错误
+- 记录用户纠正
+- 发现更好的方法
+- 持续改进能力
 
 ---
 
@@ -235,17 +284,55 @@ skill_install skillId="my-skill"
 
 ## 📊 技能统计
 
+### 🗄️ 数据库与记忆
+
+| 技能 | 说明 |
+|------|------|
+| **lancedb** | LanceDB 向量数据库，本地记忆存储 |
+| **memos-memory-guide** | MemOS 本地记忆系统使用指南 |
+
+### 🌐 浏览器自动化
+
+| 技能 | 说明 |
+|------|------|
+| **browserwing-executor** | Browserwing 浏览器自动化执行器 |
+| **browserwing-admin** | Browserwing 管理员配置工具 |
+
+### 🔧 系统工具
+
+| 技能 | 说明 |
+|------|------|
+| **openclaw-backup** | OpenClaw 完整备份与恢复工具 |
+| **self-improving-agent** | 自我改进代理，从错误中学习 |
+
+---
+
+## 📊 技能统计
+
 | 类别 | 数量 |
 |------|------|
 | 协作管理 | 4 |
 | 搜索查询 | 3 |
-| 开发工具 | 3 |
-| 记忆系统 | 1 |
-| **总计** | **11** |
+| 开发工具 | 4 |
+| 记忆系统 | 2 |
+| 浏览器自动化 | 2 |
+| 系统工具 | 2 |
+| **总计** | **17** |
 
 ---
 
 ## 🔄 更新日志
+
+### v1.2.0 (2026-03-10)
+- ✨ 添加 6 个新技能
+  - lancedb: LanceDB 向量数据库
+  - git-workflows: Git 高级工作流
+  - browserwing-executor: 浏览器自动化
+  - browserwing-admin: 浏览器管理工具
+  - openclaw-backup: 系统备份恢复
+  - self-improving-agent: 自我改进代理
+- 📦 技能总数达到 17 个
+- 🎯 新增数据库、浏览器自动化、系统工具类别
 
 ### v1.1.0 (2026-03-10)
 - ✨ 添加 memos-memory-guide 记忆系统技能
