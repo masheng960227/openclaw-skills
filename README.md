@@ -31,6 +31,14 @@
 | **openai-whisper** | 本地语音转文字（Whisper CLI，无需 API Key） |
 | **openai-whisper-api** | OpenAI Whisper API 云端语音转文字 |
 
+### 🖼️ 图片处理
+
+| 技能 | 说明 |
+|------|------|
+| **nano-banana-pro** | Gemini 3 Pro Image 图片生成和编辑 |
+| **openai-image-gen** | OpenAI 批量图片生成（DALL-E 3/GPT Image） |
+| **image-recognition** | 图片识别分析（OCR/物体检测/人脸） |
+
 ### 💻 开发与工具
 
 | 技能 | 说明 |
@@ -334,11 +342,20 @@ skill_install skillId="my-skill"
 | 浏览器自动化 | 2 |
 | 系统工具 | 3 |
 | 语音处理 | 2 |
-| **总计** | **20** |
+| **图片处理** | **3** |
+| **总计** | **22** |
 
 ---
 
 ## 🔄 更新日志
+
+### v1.5.0 (2026-03-10)
+- ✨ 添加 3 个图片处理技能
+  - nano-banana-pro: Gemini 3 Pro Image 图片生成编辑
+  - openai-image-gen: OpenAI 批量图片生成
+  - image-recognition: 图片识别分析 (OCR/物体检测/人脸)
+- 📦 技能总数达到 22 个
+- 🖼️ 新增图片处理技能类别
 
 ### v1.4.0 (2026-03-10)
 - ✨ 添加 proactive-agent 主动代理技能
